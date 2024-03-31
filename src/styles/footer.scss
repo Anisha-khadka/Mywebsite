@@ -1,0 +1,102 @@
+@import "colors";
+footer {
+    background: linear-gradient(to left, #8494f1,rgb(30,31,34));
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 140px 0 0 0;
+    padding: 2rem;
+    margin: -129px 0 0 0;
+    justify-content: space-around;
+  
+  .row{
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+
+  
+   
+.col{
+    
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    flex-wrap: wrap;
+
+
+
+    >h1{
+     
+        font: 900 2.9rem $text1;
+        text-transform: uppercase;
+        color: $third;
+       padding: 10px 0 10px 0;
+    }
+    >p{
+      justify-content: center;
+      
+      padding-bottom: 5px;
+        color: $first;
+        font: 500 1.3rem $text2;
+        
+
+    }
+    >h3{
+        padding-bottom: 15px;
+      justify-content: center;
+       padding-top: 18px;
+        font: 600 1.5rem $text1;
+        color: $first;
+       
+    }
+    .email{
+        text-decoration: underline;
+    }
+    ul li{
+      justify-content: center;
+         list-style: none;
+        margin-bottom: 10px;
+        
+    >a{
+        text-decoration: none;
+        color: $first;
+        font: 600 1rem $text2;
+        
+    }
+    }
+
+
+    >h5{
+        font: 300 2rem $text1;
+        margin: 1rem 0;
+        text-align: center;
+        color: $first;
+
+    }
+     .col1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            color: $first;
+            font: 900 1rem $text2;
+            padding-bottom: 5px;
+            &:hover{
+                color: $third;
+            }
+    
+        }
+    }
+}
+
+}
